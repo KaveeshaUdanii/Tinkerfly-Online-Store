@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.masthead .container {
+    position: relative;
+    z-index: 2;
+}
+
+.masthead:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+hr.divider {
+    border-top: 1px solid #fff;
+    max-width: 50px;
+    margin: 1.5rem auto;
+}
+
+.btn-primary {
+    background-color: #ffb400;
+    border-color: #ffb400;
+}
+
+.btn-primary:hover {
+    background-color: #ff9c00;
+    border-color: #ff9c00;
+}
+
+
+
+
+/* Custom styles for the navbar */
+.navbar-custom {
+    background-color: pink; /* Yellow color with 80% opacity */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: black ;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav-link:hover {
+    color: #ff9c00;
+    /*
+    text-decoration: underline; /* Underline the text on hover */ 
+    
+}
