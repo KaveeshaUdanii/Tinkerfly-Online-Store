@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buttons.forEach(button => {
         button.addEventListener('click', () => {
-            alert('Product added to cart!');
+            button.style.backgroundColor = 'green';
+            button.style.borderColor = 'green';
+            button.textContent = 'Added to Cart';
         });
     });
 });
